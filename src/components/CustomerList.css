@@ -1,0 +1,42 @@
+.customer-list {
+    margin: 2rem auto;
+    max-width: 800px;
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.customer-list h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.customer-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.customer-list th,
+.customer-list td {
+    border: 1px solid #ccc;
+    padding: 0.7rem;
+    text-align: left;
+}
+
+.customer-list th {
+    background-color: #f4f4f4;
+}
+
+.customer-list tr:hover {
+    background-color: #f9f9f9;
+}
+
+@media (max-width: 768px) {
+    .customer-list table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+}
